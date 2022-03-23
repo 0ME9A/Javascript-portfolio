@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style>
+      body {
+        background-color: rgb(255, 220, 125);
+        box-sizing: border-box;
+      }
+
+      .icon-parent {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        box-sizing: border-box;
+      }
+
+      .icon-box {
+        width: 40px;
+        height: 40px;
+        box-sizing: border-box;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: 0.4s;
+        transform-origin: right;
+      }
+
+      .icon-parent:hover .icon-box-shadow {
+        transform: translateY(-50%) scale(2.5);
+      }
+
+      i {
+        font-size: 36px;
+      }
+
+      .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        color: white;
+      }
+
+      .main-icon-shadow {
+        opacity: 0.2;
+      }
+
+      .select {
+        width: 500px;
+        height: 500px;
+        background-color: green;
+        /* position: absolute; */
+        /* left: 400px; */
+        overflow-x: auto;
+        position: relative;
+        /* top: 400px; */
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        border: 2px solid;
+        box-sizing: border-box;
+        position: absolute;
+        background: maroon;
+        /* opacity: .5; */
+        transition: 3s;
+      }
+
+      img {
+        /* width: 200px; */
+        width: 100%;
+      }
+
+      .box:hover {
+        top: 0;
+        left: 0;
+      }
+
+      iframe {
+        width: 800px;
+        height: 500px;
+      }
+
+      #screenBox {
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        position: absolute;
+        left: 200px;
+        top: 700px;
+      }
+      p{
+        font-size: 2rem;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="icon-parent">
+      <div class="icon-box icon-box-shadow">
+        <div class="icon main-icon-shadow">
+          <i class="fa-solid fa-house-chimney-window"></i>
+        </div>
+      </div>
+      <div class="icon-box">
+        <div class="icon main-icon">
+          <i class="fa-solid fa-house-chimney-window"></i>
+        </div>
+      </div>
+    </div>
+    <div class="select">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sint magnam tempora beatae eligendi alias explicabo sit optio repellat incidunt minus soluta assumenda error, maxime maiores, fugiat dignissimos, aliquam nihil obcaecati consequatur repellendus nam quo esse pariatur. Repellat incidunt eos cupiditate necessitatibus in! Ut facere doloribus asperiores at mollitia earum, inventore eius adipisci quasi quaerat hic sapiente modi harum soluta odio voluptatem quas vero labore distinctio repudiandae debitis. Delectus voluptate velit, neque nemo numquam molestias sapiente deserunt saepe cupiditate fugiat illum tenetur ad facere sunt quibusdam nulla temporibus doloribus dolorem iusto? Similique mollitia enim voluptatem architecto ipsam voluptatum, ullam odit, ab quasi officiis accusamus dignissimos laborum! Qui doloremque veritatis eum totam vitae unde ea voluptas. Alias veritatis esse vel temporibus vitae. Laborum aperiam ab expedita ipsum dolorem magni harum, rerum a quos sunt. Odit quisquam non, incidunt ipsa sequi ut repellendus aut voluptatem perferendis quos sint molestias velit sit facilis saepe consequatur repellat quas error id nostrum, aliquid doloribus. Obcaecati at quis, ullam maxime officia consequatur, quas cum non molestias, nulla facilis tenetur voluptatem. Voluptatum corporis dolor eaque quod. Autem, molestias eos! Ipsam similique exercitationem, sequi voluptate quisquam iste sit ab molestias nihil, nesciunt odio et iure nobis minus nostrum sed quo! Saepe assumenda blanditiis pariatur, porro non sunt distinctio beatae ad rerum facere reprehenderit fugit modi et doloremque. Totam quae soluta ratione? Minima, modi? Sint maxime, facilis iure libero porro minima placeat voluptates magnam repudiandae alias. Repellat, minima quae error inventore consectetur natus odit, officia quisquam in delectus nam et deserunt expedita eos distinctio amet corporis cumque facere, repellendus quas suscipit? Maiores vitae cum tempora magni molestias architecto repudiandae cumque omnis iste totam corrupti assumenda illo unde eius expedita vel, aliquid quia nemo saepe aut debitis iusto nihil! Eaque iure at corrupti dicta? Pariatur repellat quidem soluta impedit dignissimos, maxime cum excepturi eius dolorum consequuntur debitis natus est nihil optio voluptate quis aliquam ducimus minus sint deleniti? Vitae tempore dolorem, inventore libero veritatis enim quidem. Veritatis repellendus corrupti beatae impedit? Voluptate aspernatur veniam voluptatem a voluptatum ab porro recusandae eum nemo nihil, unde tenetur, exercitationem animi enim, molestiae dolorem harum eaque? Quasi, eius molestias! Iure reprehenderit, obcaecati illo porro possimus consectetur vel optio eum. Dicta aperiam repellat doloribus! Sapiente doloremque numquam nemo totam velit obcaecati animi minus neque saepe eligendi beatae, optio doloribus, veniam, magni recusandae debitis quisquam eveniet ipsa distinctio provident hic atque esse repellat suscipit! Labore vitae quibusdam iste quasi recusandae obcaecati mollitia quos perspiciatis quis iusto rerum esse, accusamus voluptatem, officiis non! Rem asperiores, doloremque, iusto et animi fuga aut ea nemo nisi nam vitae corporis delectus harum odit cumque. Vitae nisi consectetur qui corrupti quibusdam totam pariatur cum, quo explicabo? Repellendus laboriosam incidunt voluptate? Quis cum molestiae, exercitationem sapiente asperiores unde amet quasi, deserunt nesciunt ut delectus quia! Placeat neque aliquam veritatis quidem repudiandae et magni vel. Porro sapiente natus ducimus, ipsam alias eaque sed consectetur id voluptates, exercitationem labore deleniti, repudiandae harum accusantium blanditiis deserunt cum praesentium! Obcaecati similique quas, quaerat minus repellat reprehenderit?/p>
+      <div class="box"><img src="background.jpg" alt="" /></div>
+    </div>
+    <h1 id="demo">hello</h1>
+    <div id="screenBox" onmousemove="showCoords(event)"></div>
+
+    <!-- <iframe src="index.html" frameborder="0"></iframe> -->
+
+    <script>
+      function showCoords(event) {
+        var x = event.clientX;
+        var y = event.clientY;
+        var coords = "X coords: " + (x-200) + ", Y coords: " + (y-700);
+        document.getElementById("demo").innerHTML = coords;
+      }
+    </script>
+  </body>
+</html>
+
