@@ -1,7 +1,9 @@
-### Hi there 👋
+![pimg8](https://user-images.githubusercontent.com/83957658/161443478-4a58af4a-61d2-4994-80c6-0b7b402223a9.jpg)
+# HEYOMEGA
 ### The portfolio website for omega...
 <!--
-**heyomega/heyomega** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**heyomega/heyomega** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.![pimg8](https://user-images.githubusercontent.com/83957658/161443464-f1ecccbc-3c98-4389-9bfa-4db3aa349fdd.jpg)
+
 
 Here are some ideas to get you started:
 
