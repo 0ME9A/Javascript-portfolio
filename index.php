@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>OMEGA</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,7 +21,7 @@
                 <img src="background.jpg" alt="">
             </div>
             <div class="background-text">
-                <h1>madstar</h1>
+                <h1>OMEGA</h1>
             </div>
             <div class="filter"></div>
 
@@ -35,7 +35,7 @@
                 <div class="menu-parent">
                     <div class="menu-link-list">
                         <div class="brand-text-box menu-component-box">
-                            <a href="#" id="brand-text">madstar</a>
+                            <a href="#" id="brand-text">OMEGA</a>
                         </div>
                         <ul class="menu-text-container">
                             <li class="menu-text-box menu-component-box" id="menu-link-01"><a href="#">home</a></li>
@@ -118,7 +118,7 @@
                             </li>
                         </ul>
                         <div class="footer-icon-box menu-component-box">
-                            <a href="">
+                            <a href="https://github.com/heyomega" target="_blank">
                                 <i class="fa-brands fa-github-alt"></i>
                             </a>
                         </div>
@@ -133,8 +133,8 @@
                         <div class="content-page" id="page-01">
                             <div class="content-container home-content-container">
                                 <div class="home-page-text">
-                                    <div class="text-01"><span class="first-letter">m</span>adstar</div>
-                                    <div class="text-02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quasi.</div>
+                                    <div class="text-01"><span class="first-letter">h</span>eyomega</div>
+                                    <div class="text-02">A person who knows how to control the problems or hunt them by my blade...</div>
                                 </div>
                             </div>
                         </div>
@@ -186,21 +186,21 @@
                         <div class="content-page" id="page-03">
                             <div class="content-container contect-content-container">
                                 <div class="background-of-text">
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled">madstar@gmail.com</span>
-                                    <span class="background-text-styled" id="contect-mail"><a href="mailto:madstar@gmail.com">madstar@gmail.com</a></span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled">heyome9a@gmail.com</span>
+                                    <span class="background-text-styled" id="contect-mail"><a href="mailto:madstar@gmail.com">heyome9a@gmail.com</a></span>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +220,7 @@
                                     </div>
                                 </div>
                                 <div class="profile-text-container">
-                                    <div class="text-title">madstar</div>
+                                    <div class="text-title">OMEGA</div>
                                     <div class="location text-with-icon">
                                         <i class="fa-solid fa-location-dot"></i>
                                         tokyo, japan

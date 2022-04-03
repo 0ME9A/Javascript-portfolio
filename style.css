@@ -290,7 +290,7 @@ li.menu-text-box a{
 }
 .background-text h1{
     text-transform: uppercase;
-    font-size: 21vh;
+    font-size: 28vh;
     margin-left: -2%;
     line-height: 70%;
     color: #131313;
@@ -449,8 +449,6 @@ p{
     z-index: 5;
     border: 5px solid #E28272;
 }
-
-
 .profile-text-container{
     width: 100%;
     padding-left: 100px;
