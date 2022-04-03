@@ -387,9 +387,11 @@ li.menu-text-box a{
     width: 80%
 }
 .title-02{
-    font-size: 8rem;
+    font-size: 6vw;
     color: #E28272;
     font-weight: 800;
+    padding: 0;
+    display: inline-block;
 }
 p{
     font-size: 3rem;
@@ -432,9 +434,6 @@ p{
     z-index: 2;
     transition: .1s;
 }
-.img02:hover{
-    border: 5px solid #E28272;
-}
 .img03{
     top: 0px;
     left: 35px;
@@ -444,6 +443,11 @@ p{
 }
 .img02 .profile-img{
     opacity: .7;
+}
+.profile-img00:hover{
+    opacity: 1;
+    z-index: 5;
+    border: 5px solid #E28272;
 }
 
 
@@ -658,4 +662,35 @@ button:hover{
     font-weight: lighter;
     right: 0;
     font-size: 1vw;
+}
+
+#active-card-text-container{
+    padding: 50px 0;
+    padding-top: 0rem;
+    color: #4B4B4B;
+}
+#active-card-link{
+    display: inline-block;
+    color: #4B4B4B;
+    padding-top: .5rem;
+    font-weight: 600;
+}
+#active-card-date{
+    padding: 1rem 0;
+}
+#active-card-link:hover{
+    color: rgb(224, 224, 224);
+}
+#active-card-link i{
+    padding: 0 1rem;
+    font-size: .8rem;
+}
+#active-card-blog{
+    font-size: 3rem;
+    color: rgb(224, 224, 224);
+    /* color: white; */
+    font-weight: 600;
+    padding-top: 50px;
+    text-transform: none;
+    display: block;
 }
